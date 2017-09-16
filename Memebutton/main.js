@@ -1,6 +1,6 @@
 
 function randomgenerator() {
-    return Math.floor((Math.random()*3)+1);
+    return Math.floor((Math.random()*6)+1);
 }
 
 function showimage() {
@@ -16,6 +16,16 @@ function showimage() {
     if (x==3) {
         document.getElementById("myImg").src = "meme3.jpg";
     }
+    if (x==4) {
+        document.getElementById("myImg").src = "meme4.JPG";
+    }
+    if (x==5) {
+        document.getElementById("myImg").src = "meme5.JPG";
+    }
+    if (x==6) {
+        document.getElementById("myImg").src = "meme6.JPG";
+    }
+    
     
     
 }
