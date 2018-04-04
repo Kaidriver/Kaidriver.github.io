@@ -48,12 +48,15 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  cursor: pointer;
 }
-button {
+
+a {
   padding: 0;
   border: none;
   background: none;
 }
+
 #genji {
   margin-top: -280px;
   margin-left: 200px;
