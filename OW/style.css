@@ -49,11 +49,13 @@ header {
   margin-right: auto;
   margin-top: 100px;
 }
-button {
+
+a {
   padding: 0;
   border: none;
   background: none;
 }
+
 #genji {
   margin-top: -280px;
   margin-left: 200px;
