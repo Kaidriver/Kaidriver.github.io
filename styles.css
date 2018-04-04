@@ -2,3 +2,12 @@
 body {
     text-align: center;
 }
+#header {
+    width: auto;
+    padding: 1% 1% 1% 2%;
+}
+#header #title {
+    font-family: "Open Sans", "Sergoe UI";
+    font-size: 150%;
+    font-weight: lighter;
+}

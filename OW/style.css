@@ -1,0 +1,64 @@
+.container {
+    max-width: 500px;
+	  width: 96%;
+	  margin: auto;
+
+}
+body {
+    font-family: "Helvetica";
+  	margin: 0;
+  	padding: 0;
+  	color: darkgrey;
+    background-color: #f3f3f3;
+    background-image: url("background.jpg")
+}
+
+/*---Header---*/
+h1 {
+    font-size: 50px;
+    color: white;
+    float: left;
+
+
+}
+header {
+
+    width: auto;
+    height: 125px;
+    background-color: #0080ff;
+    box-shadow: 1px 3px 8px 1px lightgrey;
+
+}
+
+
+.style {
+  width: auto;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+}
+.blue {
+  width: auto;
+  height: 213px;
+  background-color: #0080ff;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+#genji {
+  margin-top: -280px;
+  margin-left: 200px;
+}
+#hanzo {
+  margin-top: -275px;
+  margin-left: 600px;
+}
