@@ -4,7 +4,6 @@
     <Meta charset="UTF-8">
     <title>FormulaWiz</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://www.desmos.com/api/v1.0/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
     <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
@@ -14,23 +13,13 @@
             <div class="main-title">
                 <a href="index.html"><h1>Overwatch Theme</h1></a>
             </div>
-
-
- 
     </header>
 
     <div class="style">
-      <button id = "logo" type="button" value="PLAY" onclick="play()"><img  src = "ow_logo.svg" width="200px"></button>
+      <button id="logo" type="button" value="PLAY" onclick="play()"><img src="ow_logo.svg" width="200px"></button>
       <audio id="audio" src="ow.mp3"></audio>
       <img id = "genji" src="genji.png" width="300px">
       <img id = "hanzo" src="hanzo.png" width="300px">
-      <script>
-        function play(){
-          var audio = document.getElementById("audio");
-          audio.play();
-        }
-      </script>
-
     </div>
     <div class="blue">
       <div class = "container">
@@ -38,9 +27,13 @@
           <a href="index.html"><h1>PUSH THE BUTTON</h1></a>
       </div>
 
-
     </div>
 
-
+      <script>
+        function play(){
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
     </body>
 </html>
