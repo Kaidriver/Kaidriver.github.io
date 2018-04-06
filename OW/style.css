@@ -43,26 +43,22 @@ header {
   background-color: #0080ff;
 }
 
-#logo {
+video {
   display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: -100px;
   cursor: pointer;
 }
 
-a {
-  padding: 0;
-  border: none;
-  background: none;
-}
+
 
 #genji {
-  margin-top: -280px;
-  margin-left: 200px;
+  margin-top: -450px;
+  margin-left: 180px;
 }
 #hanzo {
-  margin-top: -275px;
+  margin-top: -395px;
   margin-left: 600px;
 }
